@@ -1,1 +1,0 @@
-imagens e afins.
