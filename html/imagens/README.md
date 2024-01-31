@@ -1,1 +1,0 @@
-Nesta pasta se encontra todas as tarefas de HTML. Os arquivos aqui contidos terão uma estrutura apenas de HTML, dispensando CSS, como proposto nas aulas.
