@@ -19,13 +19,13 @@
 
                     <label> Estado civil:</label>
                         <br>
-                        <input type="radio" name="solteiro" id="estadocivil">
+                        <input type="radio" name="solteiro" id="solteiro">
                             <label for="estadocivil">Solteiro</label>
-                        <input type="radio" name="casado" id="estadocivil">
+                        <input type="radio" name="estadocivil" id="casado">
                             <label for="estadocivil">Casado</label>
-                        <input type="radio" name="divorciado" id="estadocivil">
+                        <input type="radio" name="estadocivil" id="divorciado">
                             <label for="estadocivil">Divorciado</label>
-                        <input type="radio" name="viuvo" id="estadocivil">
+                        <input type="radio" name="estadocivil" id="viuvo">
                             <label for="estadocivil">Viuvo</label>
                 </fieldset>
 
@@ -66,26 +66,20 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend><strong>RENDA</strong></legend>
-                        <label>Renda per-capita:</label> <br>
-                            <label for="renda">0.000 a 1.000</label>
-                                <input type="checkbox" name="renda" id="renda"> <br>
-                            <label for="renda"> 1.000 a 2.000</label>
-                                <input type="checkbox" name="renda" id="renda"> <br>
-                            <label for="renda"> 2.000 a 3.000</label>
-                                <input type="checkbox" name="renda" id="renda"> <br>
-                            <label for="renda"> 3.000 a 4.000</label>
-                                <input type="checkbox" name="renda" id="renda"> <br>
-                            <label for="renda"> 4.000 a 5.000</label>
-                                <input type="checkbox" name="renda" id="renda"> <br>
-                            <label for="renda">Mais de 5.000</label>
-                                <input type="checkbox" name="renda" id="renda"> <br>
+                    <legend><strong>BENS</strong></legend>
+                        <label>Selecione mais de uma opção, se necessário:</label> <br>
+                            <label for="bens">Casa</label>
+                                <input type="checkbox" name="bens" id="bens"> <br>
+                            <label for="renda">Carro</label>
+                                <input type="checkbox" name="bens" id="bens"> <br>
+                            <label for="renda">Moto</label>
+                                <input type="checkbox" name="bens" id="bens"> <br>
                 </fieldset>
 
                 <fieldset>
                     <legend><strong>INFORMAÇÕES ADICIONAIS:</strong></legend>
                         <textarea name="inf" id="inf" cols="80" rows="15"></textarea>
-                            <input type="submit" name="enviar" id="enviar">
+                            <input type="submit" name="inf" id="inf">
                 </fieldset>
 
 
