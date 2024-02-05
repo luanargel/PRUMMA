@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/carlosjj/google-jfk/128/forms-icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend><strong>CADASTRO DE PESSOA FÍSICA</strong></legend>
+                <fieldset id="dados">
+                    <label for="nome">Nome completo:</label>
+                        <input type="text" name="nome" id="nome"> <br> <br>
+
+                    <label for="idade">Data de nascimento:</label>
+                        <input type="date" name="idade" id="idade"> <br> <br>
+
+                    <p>Sexo:</p>
+                        <label for="sexo">Masculino:</label>
+                            <input type="radio" name="sexo" id="masc"> 
+                            <br>
+                        <label for="sexo">Feminino:</label>
+                            <input type="radio" name="sexo" id="fem"> <br> <br>
+
+                    <p>Estado civil:</p>
+                        <input type="radio" name="solteiro" id="solteiro">
+                            <label for="estadocivil">Solteiro</label>
+                        <input type="radio" name="estadocivil" id="casado">
+                            <label for="estadocivil">Casado</label>
+                        <input type="radio" name="estadocivil" id="divorciado">
+                            <label for="estadocivil">Divorciado</label>
+                        <input type="radio" name="estadocivil" id="viuvo">
+                            <label for="estadocivil">Viuvo</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend><strong>CONTATO</strong></legend>
+                        <label for="tel">Telefone:</label>
+                            <input type="tel" name="tel" id="tel"> <br> <br>
+
+                        <label for="cel">Celular:</label>
+                            <input type="tel" name="cel" id="cel"> <br> <br>
+
+                        <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email">
+                        
+                </fieldset>
+
+                <fieldset>
+                    <legend><strong>ENDEREÇO</strong></legend>
+                        <label for="rua">Rua:</label>
+                            <input type="text" name="rua" id="rua"> 
+
+                        <label for="cep">Cep:</label>
+                            <input type="text" name="cep" id="cep"> <br> <br>
+
+                        <label for="bairro">Bairro:</label>
+                            <input type="text" name="bairro" id="bairro">
+
+                        <label for="regiao">Região:</label>
+                            <select name="regiao" id="regiao">
+                                <option selected="selected">Selelecione sua região</option>
+                                    <option>Norte</option>
+                                    <option>Sul</option>
+                                    <option>Nordeste</option>
+                                    <option>Centro-Oeste</option>
+                                    <option>Sudeste</option>
+                                    <option>Sul</option>
+                            </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend><strong>BENS</strong></legend>
+                        <label>Selecione mais de uma opção, se necessário:</label> <br>
+                            <label for="bens">Casa</label>
+                                <input type="checkbox" name="bens" id="bens"> <br>
+                            <label for="renda">Carro</label>
+                                <input type="checkbox" name="bens" id="bens"> <br>
+                            <label for="renda">Moto</label>
+                                <input type="checkbox" name="bens" id="bens"> <br>
+                </fieldset>
+
+                    <legend><strong>INFORMAÇÕES ADICIONAIS:</strong></legend>
+                        <textarea name="textarea" id="textarea" cols="80" rows="15"></textarea> <br> <br>
+
+                        <button type="submit">ENVIAR</button>
+                        
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
